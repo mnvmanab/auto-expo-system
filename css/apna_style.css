@@ -1,0 +1,140 @@
+body
+{
+  margin: 0;
+  padding: 0;
+  /*background: url(redwhite.jpg);  /*background pic*/
+  background-color: springgreen;
+  max-width: 100%;
+  max-height: 100%;
+  font-size: 16px;
+  color: #777;
+  font-family: sans-serif;
+  font-weight: 300;
+}
+
+#login-box
+{
+	position: relative;
+	margin: 3% auto;
+	height: 82%;
+	width: 95%;
+	/*background-color: #fff;*/
+	background-color: teal;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.left-box
+{
+	background-color:orange;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+	box-sizing: border-box;
+	padding: 40px;
+	width: 50%;
+	height: 100%;
+}
+
+.left-box a
+	{
+		text-decoration: none;
+		font-size: 14px;
+		line-height: 20px;
+		color: red;
+	}
+	
+	.left-box a:hover
+	{
+		color:teal;
+	}
+
+h1
+{
+	margin: 0 0 20px 0;
+	font-weight: 300;
+	font-size: 28px;
+}
+
+
+input[type="text"],
+input[type="password"]
+	{
+		display: block;
+		box-sizing: border-box;
+		margin-bottom: 20px;  /*(give space between the inputbox)*/
+		padding: 5px;   /*(size of the inputbox)*/
+		width: 220px;   /*(width of the inputbox)*/
+		height: 32px;
+		border: none;
+		outline: none;
+		border-bottom: 1px solid #aaa;   /*(thinness #color)*/
+		font-family: sans-serif;
+		font-weight: 400;
+		font-size: 15px;
+		transition: 0.2s ease;	
+	}	
+
+input[type="email"]
+{
+		display: block;
+	    box-sizing: border-box;
+		margin-bottom: 20px;
+		padding: 5px;   /*(size of the inputbox)*/
+	    width: 220px;   /*(width of the inputbox)*/
+		height: 32px;
+		border: none;
+		outline: none;
+		border-bottom: 1px solid #aaa;   /*(thinness #color)*/
+		font-family: sans-serif;
+		font-weight: 400;
+		font-size: 15px;
+		transition: 0.2s ease;
+	}	
+
+
+	
+    input[type="submit"]
+	{
+		margin-bottom: 28px;
+		width: 120px;
+		height: 32px;
+		background: #f44336;
+		border: none;
+		border-radius: 2px;
+		color: #fff;
+		font-family: sans-serif;
+		font-weight: 500;
+		text-transform: uppercase;
+		transition: 0.2s ease;
+		cursor: pointer;
+	}
+	input[type="submit"]:hover   /*highlight the button*/
+	{
+		background: #ff5722;
+		transition: 0.2s ease;
+	}
+	
+.right-box
+{
+	position: absolute;
+	top: 0;
+	right: 0;
+	box-sizing: border-box;
+	padding: 40px;
+	width: 50%;
+	height: 100%;
+	/*background-image: url(23.jpg);*/
+	background-color: olive;
+	background-size: cover;
+	background-position: center;
+}	
+
+img
+{
+	
+	max-width: 80%;
+	max-height: 80%;
+	border-radius: 80%;
+}
+ 

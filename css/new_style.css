@@ -1,0 +1,21 @@
+html, body, .grid-container { height: 100%; margin: 0; }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1.7fr;
+  grid-template-rows: 0.4fr 2.3fr 0.3fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "top"
+    "main-box"
+    "foot";
+}
+
+.top { grid-area: top;
+background-color: orange}
+
+.main-box { grid-area: main-box;
+background-color: white}
+
+.foot { grid-area: foot;
+background-color: teal}
